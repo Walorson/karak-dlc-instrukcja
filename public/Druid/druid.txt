@@ -1,0 +1,25 @@
+Druid
+
+Wezwanie Natury:
+
+Druid ma dostęp do dowolnego źródła życia na planszy za pomocą portalu. Z miejsca gdzie stoi może utworzyć portal do odkrytej fontanny życia. Portal pozostaje otwarty do początku kolejnej tury druida
+
+* Przez portal mogą przechodzić inni gracze
+* Portal działa w obie strony
+* Przejście przez portal natychmiastowo kończy turę
+
+Dodatkowo:
+* Druid nie może nosić broni
+* W miejsce broni może umieszczać zwoje zdrowia. Każdy taki zwój daje mu +1 do rzutu kostką
+
+Dzikie Zarośla:
+
+Druid może rozstawiać bujną roślinność w pustych komnatach. Jeżeli jakiś gracz w nie wejdzie, rzuca kością
+- rzut [1-3] roślinność nie atakuje
+- rzut [4-6] roślinność zajmuje wybrane przez gracza miejsce w jego ekwipunku
+
+* Zarośla można zniszczyć przegrywając walkę z potworem lub innym graczem
+* Gdy zarośle zajmuje miejsce w ekwipunku to nie można umieścić tam przedmiotu
+* jeśli zarośle zakrywa przedmiot to po prostu nie da się go użyć
+
+

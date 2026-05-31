@@ -1,0 +1,14 @@
+Bard
+
+Taneczny pląs:
+
+Bard potrafi przesunąć swoją muzyką:
+- przedmioty
+- przedmioty specjalne (szczury Króla Szczurów, woskowa ściana Woskowego Potwora)
+- potwory
+o 2 płytki labiryntu
+
+
+Liryczna chłosta:
+
+Po pokonaniu potwora leczysz się o 1 punkt zdrowia oraz możesz ruszyć się o 1 pole labiryntu

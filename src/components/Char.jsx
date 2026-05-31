@@ -1,4 +1,4 @@
-const Char = ({name, skill1name, skill2name, skill1desc, skill2desc}) => {
+const Char = ({name, skill1name, skill2name, skill1desc, skill2desc, additionalInfo}) => {
     return (
         <article className="character-card">
         <div className="character-image">
@@ -9,6 +9,8 @@ const Char = ({name, skill1name, skill2name, skill1desc, skill2desc}) => {
           <div style={{display: "flex", justifyContent: "space-between", alignItems: "center"}}>
             <h2 className="character-name">{name}</h2>
           </div>
+
+          <div className="skill-desc">{additionalInfo}</div>
 
           <div className="skills">
             <div className="skill">
