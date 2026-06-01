@@ -18,7 +18,6 @@ skill2name="Ofiara"
 skill2desc={
 `Nerkomanta poświęca życie swojego powstańca w zamian za:
 - dodatkową turę gracza
-- dodatkowy 1 punkt ataku w trakcie walki
 `
 }
 />

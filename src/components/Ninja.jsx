@@ -5,7 +5,7 @@ const Ninja = () =>
   name="Ninja"
   skill1name="Osłona nocy"
   skill1desc={
-`Jeżeli w zasięgu do 3 płytek labiryntu od ninji nie znajduje się żaden:
+`Jeżeli w zasięgu do 2 płytek labiryntu od ninji nie znajduje się żaden:
 - gracz
 - potwór
 To ninja może wykonywać niezliczoną ilość ruchów
