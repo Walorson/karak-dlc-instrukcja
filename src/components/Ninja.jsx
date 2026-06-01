@@ -10,12 +10,13 @@ const Ninja = () =>
 - potwór
 To ninja może wykonywać niezliczoną ilość ruchów
 
-* Ninja nie może wtedy odkrywać płytek labiryntu`
+* Ninja nie może wtedy odkrywać płytek labiryntu
+* wszystkie ruchy w zasięgu graczy i potworów liczą się jako ruchy do zwykłej tury`
   } 
 
   skill2name="Podmianka"
   skill2desc={
-`Jeżeli ninja przegra walkę, a w zasięgu do 3 płytek labiryntu znajduje się:
+`Jeżeli ninja przegra walkę, a w zasięgu do 2 płytek labiryntu znajduje się:
 - przedmiot
 - inny gracz
 To ninja może wykonać zamianę miejsc i nie traci wtedy zdrowia

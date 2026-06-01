@@ -7,9 +7,12 @@ const WoskowyPotwor = () =>
   skill1desc={
 `Gdy Woskowy Potwór napotka innego gracza na swojej drodze w lochu może wejść z nim w przemocową interakcję atakując do 2 razy:
 - gdy Woskowy Potwór wyrzuci więcej niż 3 na jednej kostce, to uderzony gracz traci jeden punkt zdrowia
-- gdy Woskowy Potwór wyrzucie mniej niż 3 na jednej kostce, to dwie z jego rąk odpada skutkując zmniejszeniem ataku o 2 punkty
+- gdy Woskowy Potwór wyrzuci mniej niż 3 na jednej kostce, to dwie z jego rąk odpada skutkując zmniejszeniem ataku o 2 punkty
+- Wyrzucenie 3 skutkuje remisem
 
-* Na początku każdej tury Woskowy Potwór odzyskuje wszystkie ręce`
+* Na początku każdej tury Woskowy Potwór odzyskuje wszystkie ręce
+
+Jeżeli kogoś pokona gracz to ten gracz musi wybrać <???>`
   } 
 
   skill2name="Zamknięte wrota"

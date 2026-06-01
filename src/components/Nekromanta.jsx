@@ -9,9 +9,9 @@ skill1desc={
 * Po zabiciu potwora może umieścić go w ekwipunku w miejscu na broń
 
 Zmartwychwstałe potwory mają domyślnie 2 punkty ataku, które dodają się do rzutu kostką.
-* Podczas procesu wskrzeszania nekromanta wykonuje rzut kostką:
-- gdy wynik jest większy od 3: siła potwora wzrasta o 1
-- gdy wynik jest mniejszy od 2: siła potwora maleje o 1
+* Podczas procesu wskrzeszania nekromanta wykonuje rzut kostką i oznajmia jaką liczbę chce wyrzucić:
+- jeśli trafi -> siła potwora wzrasta o 1
+- jeśli nie trafi -> siła potwora maleje o 1
 `
 } 
 skill2name="Ofiara"

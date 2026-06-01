@@ -9,7 +9,8 @@ skill1desc={
 * strzelić do celu oddalonego do 3 płytek labiryntu w prostej linii. Za każdą płytkę labiryntu dzielącą snajpera od celu, jego obrażenie wzrasta o 1
 * strzelić rykoszetem do celu znajdującego się zaraz za zakrętem, ale od jego rzutów kostkom odejmuje się 2
 
-* Jeżeli snajper atakuje z dystansu wynoszącego co najmniej 1 płytkę labiryntu, to przedmiot automatycznie trafia do jego ekwipunku  `
+* Jeżeli snajper atakuje z dystansu wynoszącego co najmniej 1 płytkę labiryntu, to przedmiot automatycznie trafia do jego ekwipunku
+* Snajper odskakuje na maksymalnie 2 płytki odstępu (chyba, że blokuje go ściana), gdy odkryje potwora`
 } 
 
 skill2name="Wiele talentów"

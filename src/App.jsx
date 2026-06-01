@@ -10,6 +10,7 @@ import Nekromanta from './components/Nekromanta';
 import Ninja from './components/Ninja';
 import Nozycoreki from './components/Nozycoreki';
 import Obcy from './components/Obcy';
+import Skrzynkarz from './components/Skrzynkarz';
 import Snajper from './components/Snajper';
 import TreserWezow from './components/TreserWezow';
 import WoskowyPotwor from './components/WoskowyPotwor';
@@ -26,6 +27,7 @@ const App = () => {
           <Nekromanta />
           <KrolSzczurow />
           <Ninja />
+          <Skrzynkarz />
           <Snajper />
           <WoskowyPotwor />
           <Klucznik />
