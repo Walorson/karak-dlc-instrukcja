@@ -14,6 +14,7 @@ import Skrzynkarz from './components/Skrzynkarz';
 import Snajper from './components/Snajper';
 import TreserWezow from './components/TreserWezow';
 import WoskowyPotwor from './components/WoskowyPotwor';
+import Pies from "./components/Pies";
 
 const App = () => {
   return (
@@ -39,6 +40,7 @@ const App = () => {
           <Druid />
           <Nozycoreki />
           <Jaskiniowiec />
+          <Pies />
 
       </section>
   </main>
