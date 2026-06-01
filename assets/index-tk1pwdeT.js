@@ -112,8 +112,7 @@ Zmartwychwstałe potwory mają domyślnie 2 punkty ataku, które dodają się do
 - jeśli nie trafi -> siła potwora maleje o 1
 `,skill2name:`Ofiara`,skill2desc:`Nerkomanta poświęca życie swojego powstańca w zamian za:
 - dodatkową turę gracza
-- dodatkowy 1 punkt ataku w trakcie walki
-`}),ee=()=>(0,f.jsx)(p,{name:`Ninja`,skill1name:`Osłona nocy`,skill1desc:`Jeżeli w zasięgu do 3 płytek labiryntu od ninji nie znajduje się żaden:
+`}),ee=()=>(0,f.jsx)(p,{name:`Ninja`,skill1name:`Osłona nocy`,skill1desc:`Jeżeli w zasięgu do 2 płytek labiryntu od ninji nie znajduje się żaden:
 - gracz
 - potwór
 To ninja może wykonywać niezliczoną ilość ruchów
@@ -184,4 +183,21 @@ Jeżeli kogoś pokona gracz to ten gracz musi wybrać <???>`,skill2name:`Zamkni�
 * Na planszy mogą być maksymalnie dwa zablokowane przejścia
 * Gdy Woskowy potwór próbuje zablokować kolejne przejście to najwcześniej postawione przejście ulega  autodestrukcji
 * Przejście może zostać zniszczone przez gracza i woskowego potwora, jeżeli wyrzucą co najmniej 6 
-* Próba zniszczenia woskowej ściany (udana lub też nie) wymaga wykorzystania jednego punktu ruchu`});(0,u.createRoot)(document.getElementById(`root`)).render((0,f.jsx)(l.StrictMode,{children:(0,f.jsx)(()=>(0,f.jsxs)(`main`,{className:`page`,children:[(0,f.jsx)(`header`,{children:(0,f.jsx)(`h1`,{children:`KARAK DLC`})}),(0,f.jsxs)(`section`,{className:`characters`,children:[(0,f.jsx)(x,{}),(0,f.jsx)(y,{}),(0,f.jsx)(ee,{}),(0,f.jsx)(te,{}),(0,f.jsx)(ne,{}),(0,f.jsx)(w,{}),(0,f.jsx)(v,{}),(0,f.jsx)(re,{}),(0,f.jsx)(C,{}),(0,f.jsx)(m,{}),(0,f.jsx)(_,{}),(0,f.jsx)(b,{}),(0,f.jsx)(h,{}),(0,f.jsx)(S,{}),(0,f.jsx)(g,{})]})]}),{})}));
+* Próba zniszczenia woskowej ściany (udana lub też nie) wymaga wykorzystania jednego punktu ruchu`}),ie=()=>(0,f.jsx)(p,{name:`Pies`,skill1name:`Co za pies`,skill1desc:`Zwoje z czachą nie zużywają się, ale nie można nimi zabić
+
+Dodatkowo:
+- +1 do rzutu kostką za każdy zwój z czachą
+
+* pies nie może rzucić czachy na gracza który ma już tylko 2 punkty zdrowia
+* w turze może użyć maksymalnie 3 czach (jeżeli ma 3 zwoje)`,skill2name:`Najlepszy przyjaciel człowieka albo czegoś tam`,skill2desc:`Pies porusza się nie do końca samodzielnie.
+
+Pies na początku swojej tury wybiera gracza do którego przybiegnie (brak limitu zasięgu). Od tego gracza może wykonywać swoje 4 ruchy postaci. Odkrywać komnaty, walczyć i tym podobne.
+
+Pod koniec tury wraca do pozycji gdzie znajduje się gracz do którego dobiegł na początku
+
+Dodatkowo:
+- inni gracze nie mogą przejść przez pole gdzie stoi pies z graczem do którego się przywiązał
+- gracz którego wybrał pies nie może go zranić
+- gracz którego wybrał pies ma +1 do wyników rzutów kostką
+
+* W każdej turze pies musi wybrać innego przyjaciela`});(0,u.createRoot)(document.getElementById(`root`)).render((0,f.jsx)(l.StrictMode,{children:(0,f.jsx)(()=>(0,f.jsxs)(`main`,{className:`page`,children:[(0,f.jsx)(`header`,{children:(0,f.jsx)(`h1`,{children:`KARAK DLC`})}),(0,f.jsxs)(`section`,{className:`characters`,children:[(0,f.jsx)(x,{}),(0,f.jsx)(y,{}),(0,f.jsx)(ee,{}),(0,f.jsx)(te,{}),(0,f.jsx)(ne,{}),(0,f.jsx)(w,{}),(0,f.jsx)(v,{}),(0,f.jsx)(re,{}),(0,f.jsx)(C,{}),(0,f.jsx)(m,{}),(0,f.jsx)(_,{}),(0,f.jsx)(b,{}),(0,f.jsx)(h,{}),(0,f.jsx)(S,{}),(0,f.jsx)(g,{}),(0,f.jsx)(ie,{})]})]}),{})}));
