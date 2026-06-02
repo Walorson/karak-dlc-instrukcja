@@ -3,6 +3,10 @@ import Char from "./Char";
 const Jaskiniowiec = () =>
 <Char
   name="Jaskiniowiec"
+  additionalInfo={
+`Jaskiniowiec nie potrafi używać czarów
+Jeżeli jaskiniowiec przejdzie przez portal, natychmiast zostaje oszołomiony i kończy turę`}
+
   skill1name="Zapasy"
   skill1desc={
 `Przy zabiciu potwora lub znalezieniu przedmiotu, Jaskiniowiec zyskuje zawsze również mięso
@@ -26,9 +30,7 @@ Po zabiciu potwora może wziąć jego ciało jako trofeum i ustawić tak samo ja
 Każde trofeum zapewnia:
 - +1 do rzutu kostkami przeciwko potworom
 
-* Może mieć tylko jedno trofeum każdego potwora (tylko jeden szczur, tylko jeden topornik itd.)
-* Jaskiniowiec nie potrafi używać magii
-* Jeżeli jaskiniowiec przejdzie przez portal, natychmiast zostaje oszołomiony i kończy turę`
+* Może mieć tylko jedno trofeum każdego potwora (tylko jeden szczur, tylko jeden topornik itd.)`
   }
 />
 

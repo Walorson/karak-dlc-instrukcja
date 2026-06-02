@@ -12,7 +12,7 @@ const WoskowyPotwor = () =>
 
 * Na początku każdej tury Woskowy Potwór odzyskuje wszystkie ręce
 
-Jeżeli kogoś pokona gracz to ten gracz musi wybrać <???>`
+Jak pokona gracza to ten gracz wybiera jaki item wyrzuca na ziemie`
   } 
 
   skill2name="Zamknięte wrota"

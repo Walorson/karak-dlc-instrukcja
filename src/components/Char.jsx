@@ -10,7 +10,7 @@ const Char = ({name, skill1name, skill2name, skill1desc, skill2desc, additionalI
             <h2 className="character-name">{name}</h2>
           </div>
 
-          <div className="skill-desc">{additionalInfo}</div>
+          <div className="skill-desc"><b>{additionalInfo}</b></div>
 
           <div className="skills">
             <div className="skill">

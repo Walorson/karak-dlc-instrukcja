@@ -3,6 +3,8 @@ import Char from "./Char";
 const Snajper = () => 
 <Char 
 name="Snajper"
+additionalInfo="Nie może nosić broni ciężkiej takiej jak topory i miecze."
+
 skill1name="Wprawne oko"
 skill1desc={
 `Snajper potrafi
@@ -15,8 +17,7 @@ skill1desc={
 
 skill2name="Wiele talentów"
 skill2desc={
-`Sztylety dają snajperowi +2 do ataku
-* Nie może nosić broni ciężkiej takiej jak topory i miecze`
+`Sztylety dają snajperowi +2 do ataku`
 }
 
 />

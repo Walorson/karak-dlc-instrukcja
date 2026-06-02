@@ -17,7 +17,7 @@ Szczur posiada kilka cech charakterystycznych:
 - może odkryć płytki labiryntu:
   * Kiedy odkryje przeciwnika, natychmiast umiera
   * Jeżeli odkryje skarb to zaczyna go pilnować dla Króla. Staje się przeciwnikiem dla innych graczy
-  * Jeżeli szczur spotka szczura to dodaje go jako umiejętność, ale nie <???>
+  * Jeżeli szczur spotka szczura to dodaje go do ekwipunku jako czar, ale król szczurów nie dostaje sztyletu
   * Król szczurów nie może używać zwykłych zaklęć
   * Tylko jeden szczur się może ruszać
 

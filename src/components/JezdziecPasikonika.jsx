@@ -5,7 +5,7 @@ const JezdziecPasikonika = () =>
   name="Jeździec Pasikonika"
 
   additionalInfo={
-`posiada:
+`Posiada:
 - 3 zestawy naprawcze
 - 3 zestawy ulepszeń`
   }
