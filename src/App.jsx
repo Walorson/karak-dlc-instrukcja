@@ -15,6 +15,7 @@ import Snajper from './components/Snajper';
 import TreserWezow from './components/TreserWezow';
 import WoskowyPotwor from './components/WoskowyPotwor';
 import Pies from "./components/Pies";
+import Profesor from "./components/Profesor";
 
 const App = () => {
   return (
@@ -33,6 +34,7 @@ const App = () => {
           <WoskowyPotwor />
           <Klucznik />
           <TreserWezow />
+          <Profesor />
           <Obcy />
           <Bard />
           <JezdziecPasikonika />

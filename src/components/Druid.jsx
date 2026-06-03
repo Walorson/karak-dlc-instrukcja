@@ -3,6 +3,8 @@ import Char from "./Char";
 const Druid = () =>
 <Char
   name="Druid"
+  additionalInfo="Druid nie może nosić broni"
+
   skill1name="Wezwanie Natury"
   skill1desc={
 `Druid ma dostęp do dowolnego źródła życia na planszy za pomocą portalu. Z miejsca gdzie stoi może utworzyć portal do odkrytej fontanny życia. Portal pozostaje otwarty do początku kolejnej tury druida
@@ -12,7 +14,6 @@ const Druid = () =>
 * Przejście przez portal natychmiastowo kończy turę
 
 Dodatkowo:
-* Druid nie może nosić broni
 * W miejsce broni może umieszczać zwoje zdrowia. Każdy taki zwój daje mu +1 do rzutu kostką`
   }
 

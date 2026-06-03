@@ -7,7 +7,7 @@ const Profesor = () =>
   skill1desc={
 `Profesor rzuca tylko jedną kostką na raz i wyciąga z tego całkę korzystając ze wzoru:
 
-∫𝑓(𝑥) = (1/2)x^2 + C/3
+∫𝑓(𝑥) = ∫xdx = (1/2)x^2 + C/3
 
 podstawiając pod x liczbę wyrzuconą z pierwszej kostki
 podstawiając pod C liczbę wyrzuconą z drugiej kostki
