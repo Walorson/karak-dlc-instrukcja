@@ -29,6 +29,7 @@ const App = () => {
   useEffect(() => { setCharCount(ref.current.children.length) }, [])
 
   return (
+    <>
     <main className="page">
       <header style={{marginBottom: "20px"}}>
         <h1>KARAK DLC</h1>
@@ -61,6 +62,8 @@ const App = () => {
 
       </section>
   </main>
+  <footer>Karak DLC Instrukcja &copy; 2026</footer>
+    </>
   )
 }
 

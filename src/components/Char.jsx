@@ -7,12 +7,12 @@ const Char = ({name, skill1name, skill2name, skill1desc, skill2desc, additionalI
           <img src={name+"/postać.png"} alt="Postać" />
         </div>
 
-        <div className="character-content">
+        
           <div style={{display: "flex", justifyContent: "space-between", alignItems: "center"}}>
             <h2 className="character-name">{name}</h2>
           </div>
 
-          <div className="skill-desc"><b>{additionalInfo}</b></div>
+          <div className="skill-desc additional-info"><b>{additionalInfo}</b></div>
 
           <div className="skills">
             <div className="skill">
@@ -40,7 +40,7 @@ const Char = ({name, skill1name, skill2name, skill1desc, skill2desc, additionalI
               </div>
             </div>
           </div>
-        </div>
+        
       </article>
     )
 }

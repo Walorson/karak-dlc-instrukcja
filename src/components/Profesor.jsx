@@ -9,12 +9,11 @@ const Profesor = () =>
     <>
       Profesor rzuca tylko jedną kostką na raz i wyciąga z tego całkę korzystając ze wzoru:<br />
       <br />
-      <MathJaxContext>
+      <MathJaxContext version={3} config={{options: { enableMenu: false }}}>
         <MathJax>
           {`$$\\int f(x)\\,dx = \\int x\\,dx = \\frac{1}{2}x^2 + \\frac{C}{3}$$`}
         </MathJax>
       </MathJaxContext>
-       
       <br />
       podstawiając pod x liczbę wyrzuconą z pierwszej kostki<br />
       podstawiając pod C liczbę wyrzuconą z drugiej kostki<br />
