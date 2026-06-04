@@ -3,6 +3,7 @@ import Char from "./Char"
 const Pies = () =>
 <Char
     name="Pies"
+    additionalInfo="Pies może poruszać się za każdą niezależną postacią sterowaną przez gracza, która posiada punkty zdrowia"
     skill1name="Co za pies"
     skill1desc={
 `Zwoje z czachą nie zużywają się, ale nie można nimi zabić
@@ -24,10 +25,11 @@ Pod koniec tury wraca do pozycji gdzie znajduje się gracz do którego dobiegł 
 
 Dodatkowo:
 - inni gracze nie mogą przejść przez pole gdzie stoi pies z graczem do którego się przywiązał
-- gracz którego wybrał pies nie może go zranić
+- gracz którego wybrał pies nie może go zranić, ale przy przegranej to pies dostaje obrażenia
 - gracz którego wybrał pies ma +1 do wyników rzutów kostką
 
-* W każdej turze pies musi wybrać innego przyjaciela`
+* W każdej turze pies musi wybrać innego przyjaciela
+* Pies porusza się razem z graczem, którego wybrał (podąża zanim nawet w nie swojej turze)`
     }
 />
 

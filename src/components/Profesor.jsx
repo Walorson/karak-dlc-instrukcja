@@ -1,20 +1,30 @@
 import Char from "./Char";
+import { MathJax, MathJaxContext } from "better-react-mathjax";
 
 const Profesor = () =>
 <Char
   name="Profesor"
   skill1name="Całka na przedziałka"
   skill1desc={
-`Profesor rzuca tylko jedną kostką na raz i wyciąga z tego całkę korzystając ze wzoru:
-
-∫𝑓(𝑥) = ∫xdx = (1/2)x^2 + C/3
-
-podstawiając pod x liczbę wyrzuconą z pierwszej kostki
-podstawiając pod C liczbę wyrzuconą z drugiej kostki
-
-* wyniki po przecinku zaokrągla w dół
-* Profesor wykonuje tradycyjny rzut dwiema kostkami na Arenie PVP oraz w walce ze smokiem`
+    <>
+      Profesor rzuca tylko jedną kostką na raz i wyciąga z tego całkę korzystając ze wzoru:<br />
+      <br />
+      <MathJaxContext>
+        <MathJax>
+          {`$$\\int f(x)\\,dx = \\int x\\,dx = \\frac{1}{2}x^2 + \\frac{C}{3}$$`}
+        </MathJax>
+      </MathJaxContext>
+       
+      <br />
+      podstawiając pod x liczbę wyrzuconą z pierwszej kostki<br />
+      podstawiając pod C liczbę wyrzuconą z drugiej kostki<br />
+      <br />
+      * wyniki po przecinku zaokrągla w dół<br />
+      * Profesor wykonuje tradycyjny rzut dwiema kostkami na Arenie PVP oraz w walce ze smokiem
+    </>
   }
+  skill1format={true}
+
 
   skill2name="Panzerkampfwagensiebenkanonendreissig"
   skill2desc={

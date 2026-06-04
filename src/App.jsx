@@ -16,15 +16,24 @@ import TreserWezow from './components/TreserWezow';
 import WoskowyPotwor from './components/WoskowyPotwor';
 import Pies from "./components/Pies";
 import Profesor from "./components/Profesor";
+import Arsonista from './components/Arsonista';
+import BratKaraka from './components/BratKaraka';
+import { useEffect, useRef, useState } from 'react';
 
 const App = () => {
+  const ref = useRef();
+  const [charCount, setCharCount] = useState(0);
+
+  useEffect(() => { setCharCount(ref.current.children.length) }, [])
+
   return (
     <main className="page">
-      <header>
+      <header style={{marginBottom: "20px"}}>
         <h1>KARAK DLC</h1>
+        <p>Liczba postaci: {charCount}</p>
       </header>
     
-      <section className="characters">
+      <section className="characters" ref={ref}>
 
           <Nekromanta />
           <KrolSzczurow />
@@ -43,6 +52,8 @@ const App = () => {
           <Nozycoreki />
           <Jaskiniowiec />
           <Pies />
+          <Arsonista />
+          <BratKaraka />
 
       </section>
   </main>

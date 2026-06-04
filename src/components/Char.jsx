@@ -1,4 +1,6 @@
-const Char = ({name, skill1name, skill2name, skill1desc, skill2desc, additionalInfo}) => {
+import "./Char.css";
+
+const Char = ({name, skill1name, skill2name, skill1desc, skill2desc, additionalInfo, skill1format = false, skill2format = false}) => {
     return (
         <article className="character-card">
         <div className="character-image">
@@ -19,7 +21,10 @@ const Char = ({name, skill1name, skill2name, skill1desc, skill2desc, additionalI
               </div>
               <div>
                 <div className="skill-name">{skill1name}</div>
-                <div className="skill-desc">{skill1desc}</div>
+                {skill1format ? <div className="skill-desc" style={{ whiteSpace: "normal" }}>{skill1desc}</div>
+                        : <div className="skill-desc">{skill1desc}</div>
+                }
+                
               </div>
             </div>
 
@@ -29,7 +34,9 @@ const Char = ({name, skill1name, skill2name, skill1desc, skill2desc, additionalI
               </div>
               <div>
                 <div className="skill-name">{skill2name}</div>
-                <div className="skill-desc">{skill2desc}</div>
+                {skill2format ? <div className="skill-desc" style={{ whiteSpace: "normal" }}>{skill2desc}</div>
+                        : <div className="skill-desc">{skill2desc}</div>
+                }
               </div>
             </div>
           </div>

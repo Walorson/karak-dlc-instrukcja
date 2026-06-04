@@ -11,6 +11,8 @@ const Mnich = () =>
 * może kontynuować swoją turę nawet po pokonaniu potwora
 * może podnosić przedmioty bez utraty tury
 * dodaje 2 do swoich rzutów kostką
+
+Jednak może odkrywać płytki labiryntu tylko do momentu wyciągnięcia pierwszej komnaty
 `
 }
   skill2name="Parkour"
