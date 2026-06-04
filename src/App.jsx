@@ -19,6 +19,8 @@ import Profesor from "./components/Profesor";
 import Arsonista from './components/Arsonista';
 import BratKaraka from './components/BratKaraka';
 import { useEffect, useRef, useState } from 'react';
+import Obrzygulec from './components/Obrzygulec';
+import OrkiestraDeta from './components/OrkiestraDeta';
 
 const App = () => {
   const ref = useRef();
@@ -54,6 +56,8 @@ const App = () => {
           <Pies />
           <Arsonista />
           <BratKaraka />
+          <Obrzygulec />
+          <OrkiestraDeta />
 
       </section>
   </main>
