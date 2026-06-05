@@ -3,6 +3,8 @@ import Char from "./Char";
 const WoskowyPotwor = () =>
 <Char 
   name="Woskowy Potwór"
+  additionalInfo="Na początku gry posiada 2 woskowe ściany"
+
   skill1name="Obrońca lochu"
   skill1desc={
 `Gdy Woskowy Potwór napotka innego gracza na swojej drodze w lochu może wejść z nim w przemocową interakcję atakując do 2 razy:

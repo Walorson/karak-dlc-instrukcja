@@ -12,7 +12,7 @@ skill1desc={
 * strzelić rykoszetem do celu znajdującego się zaraz za zakrętem, ale od jego rzutów kostkom odejmuje się 2
 
 * Jeżeli snajper atakuje z dystansu wynoszącego co najmniej 1 płytkę labiryntu, to przedmiot automatycznie trafia do jego ekwipunku
-* Snajper odskakuje na maksymalnie 2 płytki odstępu (chyba, że blokuje go ściana), gdy odkryje potwora`
+* Snajper odskakuje na maksymalnie 3 płytki odległości (chyba, że blokuje go ściana), gdy odkryje potwora`
 } 
 
 skill2name="Wiele talentów"

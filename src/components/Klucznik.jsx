@@ -3,6 +3,8 @@ import Char from "./Char";
 const Klucznik = () =>
 <Char 
 name="Klucznik"
+additionalInfo="Klucznik nie może nosić broni ani czarów"
+
 skill1name="Pęk kluczy"
 skill1desc={
 `Klucznik na miejscu czarów oraz broni od początku gry posiada 5 kluczy
@@ -11,7 +13,6 @@ Po zużyciu swoich kluczy specjalnych, może umieszczać tam zwykłe klucze jeż
 
 * Kluczy tych nie można ukraść
 * Nie może tymi kluczami otworzyć skrzyni
-* Klucznik nie może nosić broni ani czarów
 
 Każdy klucz w ekwipunku zapewnia mu +1 do rzutu kostką
 Za każdy klucz na miejscu broni zyskuje +1 ruchów w turze`
