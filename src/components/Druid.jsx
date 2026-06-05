@@ -15,7 +15,7 @@ const Druid = () =>
 * Przejście przez portal w stronę uleczenia powoduje natychmiastowe uleczenie tego, który przez niego przeszedł
 
 Dodatkowo:
-* W miejsce broni może umieszczać zwoje zdrowia. Każdy taki zwój daje mu +1 do rzutu kostką`
+- W miejsce broni może umieszczać zwoje zdrowia. Każdy taki zwój daje mu +1 do rzutu kostką`
   }
 
   skill2name="Dzikie Zarośla"

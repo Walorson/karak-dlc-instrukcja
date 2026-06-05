@@ -7,10 +7,10 @@ const Mnich = () =>
   skill1desc={
 `Mnich może poświęcić całą swoją turę na medytacje co daje mu następujące korzyści w kolejnej turze:
 
-* posiada 1 dodatkowy punkt ruchu
-* może kontynuować swoją turę nawet po pokonaniu potwora
-* może podnosić przedmioty bez utraty tury
-* dodaje 2 do swoich rzutów kostką
+- posiada 1 dodatkowy punkt ruchu
+- może kontynuować swoją turę nawet po pokonaniu potwora
+- może podnosić przedmioty bez utraty tury
+- dodaje 2 do swoich rzutów kostką
 
 Jednak może odkrywać płytki labiryntu tylko do momentu wyciągnięcia pierwszej komnaty
 `

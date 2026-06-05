@@ -14,11 +14,11 @@ Gdy nożycoręki walczy, uderza wszystko co stoi na jego polu oraz 1 płytkę la
 }
   skill2name="Łowy"
   skill2desc={
-`Jeżeli gracz znajduje się w prostej linii od nożycorękiego ten może do niego doskoczyć i stanąć na tym samym polu (brak limitu długości)
+`Jeżeli gracz znajduje się w prostej linii od nożycorękiego i nie zasłania go żadna ściana ten może do niego doskoczyć i stanąć na tym samym polu (brak limitu długości)
 
 Po doskoku nożycoręki przeraża cel i może nim poruszyć o maksymalnie 2 pola labiryntu w wybranym przez siebie kierunku
-* Nie może zakręcać, tylko w prostej linii
-* Skok ten nie zużywa punktów ruchu`
+* Nie może zakręcać graczem, może poruszyć nim tylko w prostej linii
+* Skok ten nie zużywa punktów ruchu w turze nożycorękiego`
   }
   
 />

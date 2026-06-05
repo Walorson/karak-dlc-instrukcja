@@ -24,7 +24,6 @@ const Profesor = () =>
   }
   skill1format={true}
 
-
   skill2name="Panzerkampfwagensiebenkanonendreissig"
   skill2desc={
 `Korzystając z mocy statystki i używając rozkładu normalnego wypadków śmiertelnych w lochach, po przegranej walce jeżeli profesor:

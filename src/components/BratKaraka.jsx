@@ -15,19 +15,16 @@ Karak posiada 3 klątwy, które może rzucić zamiast dowolnego zaklęcia:
 - Opętanie (wykonaj jeden ruch w turze gracza za niego, możesz odkrywać komnaty, walczyć, rzucać o klątwę, podnosić przedmioty)
 
 * Opętanie kończy się po przegranej walce lub podniesieniu przedmiotu. Wtedy gracz może wykonać swoje pozostałe ruchy w turze
+* Brat Karaka może opętać gracza na początku lub na końcu jego tury
 
 * Klątwy te można zdjąć uzdrawiając się na sercu lub jeśli Brat Karaka przełoży je na kogoś innego
-
-* Na jednym graczu może znajdować się tylko jedna klątwa
-
-* Kilka klątw może być rzucone w jednym momencie`
+* Na jednym graczu może znajdować się tylko jedna klątwa Brata Karaka
+* Kilka klątw może być rzucone w jednym momencie poświęcając kilka zaklęć na raz`
     }
 
     skill2name="Dziwne literki"
     skill2desc={
-`Karak podnosi z podłogi zaklęcia które zostały wcześniej wykorzystane.
-
-Karak ma możliwość użycia zaklęcia, które było poprzednio użyte podczas gry w zamian za swój 1 ruch.
+`Karak ma możliwość użycia zaklęcia, które było użyte jako ostatnie przez któregoś z graczy w zamian za swój 1 ruch w turze.
 
 * Zaklęcie może być użyte w dowolnym momencie tury jeżeli zasady na to przyzwalają`
     }

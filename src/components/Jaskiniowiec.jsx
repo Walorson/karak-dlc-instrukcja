@@ -4,7 +4,7 @@ const Jaskiniowiec = () =>
 <Char
   name="Jaskiniowiec"
   additionalInfo={
-`Jaskiniowiec nie potrafi używać czarów
+`Jaskiniowiec nie potrafi używać zaklęć
 Jeżeli jaskiniowiec przejdzie przez portal, natychmiast zostaje oszołomiony i kończy turę`}
 
   skill1name="Zapasy"

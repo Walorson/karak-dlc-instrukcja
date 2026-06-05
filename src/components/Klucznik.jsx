@@ -3,11 +3,11 @@ import Char from "./Char";
 const Klucznik = () =>
 <Char 
 name="Klucznik"
-additionalInfo="Klucznik nie może nosić broni ani czarów"
+additionalInfo="Klucznik nie może nosić broni ani zaklęć"
 
 skill1name="Pęk kluczy"
 skill1desc={
-`Klucznik na miejscu czarów oraz broni od początku gry posiada 5 kluczy
+`Klucznik na miejscu zaklęć oraz broni od początku gry posiada 5 kluczy
 
 Po zużyciu swoich kluczy specjalnych, może umieszczać tam zwykłe klucze jeżeli jakieś znajdzie
 

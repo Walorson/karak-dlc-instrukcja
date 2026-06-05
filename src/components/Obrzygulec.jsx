@@ -11,19 +11,19 @@ const Obrzygulec = () =>
 
 Wchodząc w korytarz gracz natychmiast prześlizguje się na drugą stronę.
 
-Jeżeli w korytarz wchodzi inny gracz niż Obrzygulec, dostaje obrażenia wynoszące 1 punkt życia za każdą płytke zarzyganego labiryntu jaki przejdzie
+Jeżeli w korytarz wchodzi inny gracz niż Obrzygulec, dostaje obrażenia wynoszące 1 punkt życia za każdą płytke zarzyganego labiryntu jaką przejdzie
 
-* płytki zarzyganego labiryntu mogą zostać spopielone
-* płytki zarzyganego labiryntu można stawiać tylko w taki sposób, żeby łączyły się z istniejącymi płytkami
+* płytki zarzyganego labiryntu mogą zostać spopielone niezależnie od tego czy będą się ze sobą łączyć czy nie
+* płytki zarzyganego labiryntu można stawiać tylko w taki sposób, żeby łączyły się z istniejącymi płytkami labiryntu
 
 Śmierć w obrzyganym korytarzu sprawia, że gracz musi poświęć jeden przedmiot ze swojego ekwipunku`
     }
 
     skill2name="Odpychający oddech"
     skill2desc={
-`Obrzygulec używając swoich wymiocin może popchnąć gracza stojącego 1 płytke labiryntu obok niego. Gracz ten poleci w prostej linii i zatrzyma się na najbliższej ścianie.
+`Obrzygulec używając swoich wymiocin może popchnąć gracza stojącego 1 płytke labiryntu obok niego. Gracz ten poleci w prostej linii w kierunku podmuchu i zatrzyma się na najbliższej ścianie.
 
-Jeżeli ściana ta bezpośrednio przechodzi w Zarzygany Labirynt, gracz natychmiast przez niego przelatuje dostając obrażenia tak jakby przez niego przechodził`
+Jeżeli ściana ta bezpośrednio przechodzi w Zarzygany Labirynt, gracz natychmiast przez niego przelatuje dostając obrażenia tak jakby przez niego przechodził z własnej woli`
     }
 />
 

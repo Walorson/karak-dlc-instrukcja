@@ -12,37 +12,38 @@ const JezdziecPasikonika = () =>
 
   skill1name="Potwór"
   skill1desc={
-`Jeździec Pasikonika ma dodatkowe 3 punkty życia które należą do jego potwora
+`Jeździec Pasikonika ma dodatkowe 3 punkty życia które należą do jego potwora, a także:
+- Jeżeli potwór ma aktywne życia to przyjmuje obrażenia w zamian za gracza
+- Dopóki potwór jest żywy Jeździec ma +1 do rzutów kostką
 
-* Jeżeli potwór ma aktywne życia to przyjmuje obrażenia w zamian za gracza
-* Dopóki potwór jest żywy Jeździec ma +1 do rzutów kostką
+Pasikonika można wskrzesić używając zestawu naprawczego. Wykorzystanie zestawu naprawczego skutkuje odnowieniem życia Pasikonika do pełna
 
-Pasikonika można wskrzesić na dwa sposoby:
-- w fontannie życia (płytka z sercem)
-- używając zestawu naprawczego
-
-* Oba te sposoby odnawiają pełne życie pasikonika
-* Jeździec Pasikonika może wykorzystać tylko jeden zestaw na turę
-* Pasikonika nie można uleczyć w fontannie jeżeli został pokonany przez gracza`
+* Jeździec Pasikonika może wykorzystać tylko jeden zestaw na turę`
     }
 
   skill2name="Ulepszenie"
   skill2desc={
-`Jeździec pasikonika może wykorzystać swój zestaw ulepszeń to wzmocnienia swojego biorobota
+`Jeździec Pasikonika może wykorzystać swój zestaw ulepszeń do wzmocnienia swojego Pasikonika
 
 ulepszenie sprawia, że Pasikonik porusza się autonomicznie i posiada kilka charakterystycznych cech:
-- posiada 8 punktów ruchu na turę
-- może zaatakować gracza
-- może zostać zaatakowany przez gracza (gracz traktuje go jako potwora i żeby go pokonać musi wyrzucić co najmniej 11)
+- posiada 6 punktów ruchu na turę (są to dodatkowe ruchy jeźdźcy)
 - może zaatakować potwora
 - może podnieść przedmiot
-- posiada 10 punktów życia
 - do jego rzutów kostką dodaje się 3
 
-Ulepszenie kończy się po zaatakowaniu gracza lub potwora
+* Autonomiczny robot nie dostaje bonusów do rzutu kostką od broni ani magii Jeźdźcy
 
-* Atakując gracza może zabrać mu przedmiot (jak na arenie PVP)
-* Jeżeli pasikonik zostanie pokonany przez gracza, Jeździec musi podejść do niego i użyć zestawu naprawczego, żeby ponownie działał (fontanna nie działa w tym przypadku)`
+Dodatkowo:
+- może zaatakować gracza
+- może zostać zaatakowany przez gracza
+
+* Podczas walki z graczem lub potworem, Pasikonik rzuca kośćmi jak zwykły gracz
+* Gdy gracz atakuje Pasikonika, to traktuje go jak potwora i musi wyrzucić co najmniej 11 żeby go pokonać
+
+Gdy gracz pokona Pasikonika, ten psuje się w miejscu pokonania. Pasikonik Nie może zostać wykorzystany dopóki Jeździec nie stanie na tym samym polu co zepsuta maszyna i nie poświęci swojej tury na jego naprawę za pomocą zestawu.
+
+* Gdy autonomiczny robot walczy z potworem lub graczem, to rzuca kością jak zwykły gracz
+* Kiedy autonomiczny robot pokona potwora, to przedmioty trafiają natychmiastowo do Jeźdźcy`
   }
 />
 

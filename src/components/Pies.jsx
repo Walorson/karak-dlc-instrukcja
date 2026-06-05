@@ -3,7 +3,7 @@ import Char from "./Char"
 const Pies = () =>
 <Char
     name="Pies"
-    additionalInfo="Pies może poruszać się za każdą niezależną postacią sterowaną przez gracza, która posiada punkty zdrowia"
+    additionalInfo="Pies musi poruszać się za graczem, a także każdą niezależną postacią sterowaną przez gracza, która posiada punkty zdrowia"
     skill1name="Co za pies"
     skill1desc={
 `Zwoje z czachą nie zużywają się, ale nie można nimi zabić

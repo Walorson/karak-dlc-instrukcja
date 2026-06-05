@@ -12,9 +12,9 @@ const WoskowyPotwor = () =>
 - gdy Woskowy Potwór wyrzuci mniej niż 3 na jednej kostce, to dwie z jego rąk odpada skutkując zmniejszeniem ataku o 2 punkty
 - Wyrzucenie 3 skutkuje remisem
 
-* Na początku każdej tury Woskowy Potwór odzyskuje wszystkie ręce
+Jeżeli Woskowy potwór pokona gracza to ten gracz wybiera jaki item wyrzuca ze swojego ekwipunku na płytkę labiryntu
 
-Jak pokona gracza to ten gracz wybiera jaki item wyrzuca na ziemie`
+* Na początku każdej tury Woskowy Potwór odzyskuje wszystkie ręce`
   } 
 
   skill2name="Zamknięte wrota"

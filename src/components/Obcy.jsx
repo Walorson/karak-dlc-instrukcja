@@ -18,12 +18,13 @@ Przybranie formy potwora daje:
 
   skill2name="Broń biologiczna"
   skill2desc={
-`Może przetrawić przedmiot ze swojego ekwipunku na jedno z poniższych:
-- +2 ruchy
-- +2 obrażeń do rzutu
-- +2 uzdrowienia
+`Może przetrawić przedmiot ze swojego ekwipunku na stałe na jedno z poniższych:
+- +1 ruch w turze
+- +1 obrażeń do rzutu
+- +1 maksymalnego zdrowia
 
-* Przedmiot należy odrzucić
+* Strawienie dwa razy tego samego przedmiotu nie daje bonusu
+* Strawiony przedmiot powinien znajdować się przy karcie postaci obcego
 * Nie może strawić kluczy ani skrzyń`
   }
 />
